@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="black">#000000</color>
+  <color name="actionbar">#1c2939</color>
+  <color name="background">#16202a</color>
+  <color name="folders">#444c56</color>
+  <color name="onselection">#346dbb</color>
+  <color name="white">#FFFFFF</color>
+  <color name="onClickFolder">#2d3e52</color>
+  <color name="videoBottomSheet">#26374b</color>
+  </resources>

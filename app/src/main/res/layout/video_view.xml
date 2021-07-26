@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ripple_effect"
+    android:padding="5dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:paddingStart="10dp">
+    <FrameLayout
+        android:background="@drawable/shape"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/video_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/shape"/>
+
+        <TextView
+            android:id="@+id/video_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:background="@drawable/shape"
+            android:textSize="10sp"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="2dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/new_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="3dp"
+            android:paddingStart="3dp"
+            android:visibility="invisible"
+            android:paddingEnd="3dp"
+            android:textSize="8dp"
+            android:textColor="@color/white"
+            android:background="#EA0000"
+            android:text="NEW"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/video_name"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:gravity="center|start"
+        android:layout_weight="10"
+        android:lineSpacingExtra="4dp"
+        android:maxHeight="80dp"
+        android:paddingLeft="10dp"
+        android:paddingEnd="5dp"
+        android:text="Avengers - Age of Ultron (2015 2160p 44k BluRayx265 10bit HDR..."
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:ellipsize="end"
+        android:maxLines="3"/>
+    <ImageView
+        android:id="@+id/more"
+        android:background="@drawable/ripple_effect_i"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/more"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
